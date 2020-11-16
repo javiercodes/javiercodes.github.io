@@ -1,11 +1,16 @@
+import { Link } from "evergreen-ui";
+import NavBar from "../components/NavBar";
 import React from "react";
 
 const LandingPage = () => {
-    return (
+  console.log("Not yet");
+  return (
     <div>
-        Hello, it's me.
+      <NavBar />
+      Hello, it's me.
+      <Link href="/resources">Resources</Link>
     </div>
-    );
+  );
 };
 
 export default LandingPage;
