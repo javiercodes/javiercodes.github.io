@@ -2,14 +2,15 @@ import { Link } from "evergreen-ui";
 import NavBar from "../components/NavBar";
 import React from "react";
 
-const LandingPage = () => {
+const ContactMePage = () => {
   console.log("Not yet");
   return (
     <div>
       <NavBar />
-      Hello, it's me.
+      Email: jmf@berkeley.edu Linkedin: https://www.linkedin.com/in/javiercodes/
+      Instagram: jmirflores
     </div>
   );
 };
 
-export default LandingPage;
+export default ContactMePage;
