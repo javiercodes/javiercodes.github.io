@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { TabNavigation, Tab, Link, Heading, Pane } from "evergreen-ui";
+import {
+  TabNavigation,
+  Tab,
+  Link,
+  Heading,
+  Pane,
+  ThemeProvider,
+} from "evergreen-ui";
+import { mainTheme } from "./App/Themes";
 
 const NavBar = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -15,9 +23,12 @@ const NavBar = () => {
   }
 
   return (
-    <Pane display="flex" padding={16} background="tint2" borderRadius={3}>
+    <Pane display="flex" padding={16} background="#425A70" borderRadius={3}>
       <Pane flex={1} alignItems="center" display="flex">
-        <Heading size={600}> Javier Miranda Flores </Heading>
+        <Heading size={600} color="#F9F9FB">
+          {" "}
+          Javier Miranda Flores{" "}
+        </Heading>
       </Pane>
 
       <Pane marginRight={1}>
@@ -30,8 +41,11 @@ const NavBar = () => {
               id={tab}
               isSelected={index === selectedIndex}
               onSelect={() => setSelectedIndex(index)}
+              color="#F9F9FB"
             >
-              <Link href={`/${href(tab)}`}>{tab}</Link>
+              <Link href={`/${href(tab)}`} color="blue">
+                {tab}
+              </Link>
             </Tab>
           ))}
         </TabNavigation>
