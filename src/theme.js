@@ -3,7 +3,7 @@ export const theme = {
   breakpoints: ["40em", "52em", "64em"],
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
   colors: {
-    jet: "#333333",
+    jet: "#1C1F21",
     spacecadet: "#1f1e38",
     persianblue: "#312ab8",
     gainsboro: "#d7dadf",
