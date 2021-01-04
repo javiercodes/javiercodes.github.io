@@ -1,7 +1,7 @@
 import React from "react";
 import instagramIcon from "./assets/instagram.svg";
 import jPeriod from "./assets/jperiod.svg";
-import { Flex, Text, Image, Box } from "rebass";
+import { Flex, Text, Image, Box, Link } from "rebass";
 import Button from "./components/Button";
 import { buttonTheme, theme } from "./theme";
 
@@ -33,8 +33,13 @@ const App = () => {
         marginBottom={250}
       >
         <Button variant="action"> R </Button>
-        <Image src={instagramIcon} width={40} />
-        <Button variant="action"> L </Button>
+        <Link href="https://www.instagram.com/jmirflores/">
+          <Image src={instagramIcon} width={40} />
+        </Link>
+
+        <Link href={"https://www.linkedin.com/in/javiercodes/"}>
+          <Button variant="action">L</Button>
+        </Link>
       </Box>
     </Flex>
   );

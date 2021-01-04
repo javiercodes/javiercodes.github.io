@@ -1,5 +1,5 @@
 {
-  "homepage": "http:/javiercodes.github.io/",
+  "homepage": "https://javiercodes.github.io/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "emotion-theming": "^11.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "rebass": "^4.0.7",
     "web-vitals": "^0.2.4"

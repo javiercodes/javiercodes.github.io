@@ -4,7 +4,11 @@ import { buttonTheme } from "../theme";
 
 const Button = (props) => {
   return (
-    <RebassButton variant={props.variant} theme={buttonTheme}>
+    <RebassButton
+      variant={props.variant}
+      theme={buttonTheme}
+      onClick={props.onClick}
+    >
       {props.children}
     </RebassButton>
   );
