@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/static/js/main.4ba2ab83.chunk.js",
-    "main.js.map": "/static/js/main.4ba2ab83.chunk.js.map",
+    "main.js": "/static/js/main.e1553eb1.chunk.js",
+    "main.js.map": "/static/js/main.e1553eb1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7d027fb5.js",
     "runtime-main.js.map": "/static/js/runtime-main.7d027fb5.js.map",
-    "static/js/2.017b4c2a.chunk.js": "/static/js/2.017b4c2a.chunk.js",
-    "static/js/2.017b4c2a.chunk.js.map": "/static/js/2.017b4c2a.chunk.js.map",
+    "static/js/2.3354c2ae.chunk.js": "/static/js/2.3354c2ae.chunk.js",
+    "static/js/2.3354c2ae.chunk.js.map": "/static/js/2.3354c2ae.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.017b4c2a.chunk.js.LICENSE.txt": "/static/js/2.017b4c2a.chunk.js.LICENSE.txt",
+    "static/js/2.3354c2ae.chunk.js.LICENSE.txt": "/static/js/2.3354c2ae.chunk.js.LICENSE.txt",
     "static/media/instagram.cff10d6b.svg": "/static/media/instagram.cff10d6b.svg",
     "static/media/jperiod.f13bfdc1.svg": "/static/media/jperiod.f13bfdc1.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7d027fb5.js",
-    "static/js/2.017b4c2a.chunk.js",
-    "static/js/main.4ba2ab83.chunk.js"
+    "static/js/2.3354c2ae.chunk.js",
+    "static/js/main.e1553eb1.chunk.js"
   ]
 }
