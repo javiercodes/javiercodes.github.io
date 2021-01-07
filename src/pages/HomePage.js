@@ -31,7 +31,11 @@ const HomePage = () => {
         display="flex"
         marginBottom={250}
       >
-        <Link href={"/resources"}>
+        <Link
+          href={
+            "https://www.notion.so/2021-road-to-the-top-203031927dff40abaeb6786e582df682"
+          }
+        >
           <Button variant="action">R</Button>
         </Link>
 
