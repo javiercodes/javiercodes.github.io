@@ -7,10 +7,10 @@ const Router = () => {
   return (
     <>
       <Switch>
-        <Route exact path="/">
+        <Route basename={process.env.PUBLIC_URL} exact path="/">
           <HomePage />
         </Route>
-        <Route path="/resources">
+        <Route basename={process.env.PUBLIC_URL} path="/resources">
           <ResourcesPage />
         </Route>
       </Switch>
