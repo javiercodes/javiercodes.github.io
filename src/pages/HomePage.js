@@ -1,6 +1,6 @@
 import React from "react";
 import instagramIcon from "../assets/instagram.svg";
-import { Flex, Image, Box, Link } from "rebass";
+import { Flex, Image, Box, Link, Text } from "rebass";
 import Button from "../components/Button";
 import { theme } from "../theme";
 
@@ -32,7 +32,9 @@ const HomePage = () => {
         marginBottom={250}
       >
         <Link href={"/resources"}>
-          <Button variant="action">R</Button>
+          <Button variant="action">
+            <Text fontFamily={theme.fonts.body}>R</Text>
+          </Button>
         </Link>
 
         <Link href="https://www.instagram.com/javiermirandaflores/">
@@ -40,7 +42,9 @@ const HomePage = () => {
         </Link>
 
         <Link href={"https://www.linkedin.com/in/javiercodes/"}>
-          <Button variant="action">L</Button>
+          <Button variant="action">
+            <Text fontFamily={theme.fonts.body}>L</Text>
+          </Button>
         </Link>
       </Box>
     </Flex>
