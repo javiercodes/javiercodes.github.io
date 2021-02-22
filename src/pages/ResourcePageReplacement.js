@@ -22,7 +22,10 @@ const ResourcePageReplacement = () => {
       </Box>
 
       <Flex width="100%" justifyContent="center" marginTop={3}>
-        <Link href={"/blog"} width="85%">
+        <Link
+          href={"https://javiermfg.medium.com/2021-kickoff-469e90a1d0b8"}
+          width="85%"
+        >
           <Box
             sx={{
               p: 2,
